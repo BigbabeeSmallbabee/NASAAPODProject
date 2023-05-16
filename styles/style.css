@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.h1-title {
+  margin-top: 40px;
+}
+
+.h1-title abbr {
+  text-decoration: none !important;
+}
+
+abbr::before {
+  content: "(";
+}
+
+abbr::after {
+  content: ")";
+}
+
+.h2-title {
+  margin-top: 40px;
+}
+
+#h4-date {
+  display: inline-flex;
+}
+
+.button-load {
+  background-color: brown;
+  color: #303131;
+  font-size: 17px;
+  height: 40px;
+  width: 90px;
+  border-radius: 3px;
+  border: none;
+}
+
+.button-reset {
+  background-color: brown;
+  color: #303131;
+  font-size: 17px;
+  height: 40px;
+  width: 90px;
+  border-radius: 3px;
+  border: none;
+}
+
+.image-box {
+  height: 75vh;
+  width: 80%;
+  margin-top: 10px;
+  box-shadow: 2px 3px 6px #2c2c2d;
+  display: flex;
+  border-radius: 5px;
+}
+
+.image-box img {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.paragraph {
+  width: 70%;
+  text-align: center;
+}
+
+.paragraph::first-letter {
+  text-transform: capitalize;
+}
+
+footer {
+  height: 20%;
+  background-color: #30313160;
+  color: #000000;
+  width: 100%;
+  gap: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-6-footer {
+  padding-top: 20px;
+}
+
+.githuborg {
+  color: #000000;
+  text-decoration: none;
+}
+
+.githuborg:hover {
+  text-decoration: underline;
+}
+
+.github-icon {
+  height: 20px;
+  width: 30px;
+  padding-bottom: 2px;
+}
+
+.vijaysimhabr {
+  color: #000000;
+  text-decoration: none;
+}
+
+.vijaysimhabr:hover {
+  text-decoration: underline;
+}
+
+.geethabathula {
+  color: #000000;
+  text-decoration: none;
+}
+
+.geethabathula:hover {
+  text-decoration: underline;
+}
