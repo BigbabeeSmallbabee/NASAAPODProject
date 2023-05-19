@@ -1,7 +1,7 @@
 const defaultImage = "https://images.pexels.com/photos/2106759/pexels-photo-2106759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
 const onImageLoading = "https://images.unsplash.com/photo-1607434472257-d9f8e57a643d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80";
 
-const apikey = "JjP84CKefxzmg2fyAvN4zWsRyAAqg1nzrXvHdtc6";
+const apikey = "INSERTYOURNASAPIKEYHERE";
 const endPointForAPI = "https://api.nasa.gov/planetary/apod?api_key=" + apikey;
 
 const imageDisplay = document.querySelector("#image-display");
